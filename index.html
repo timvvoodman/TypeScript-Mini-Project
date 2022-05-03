@@ -1,15 +1,22 @@
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TypeScript Tutorial</title>
-    <link rel="stylesheet" href="./public/styles.css" />
-  </head>
-  <body>
-    <div class="wrapper">
-      <h1>Digital Ledger</h1>
-    </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TypeScript Tutorial</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
+  <div class="wrapper">
+    <h1>Finance Logger</h1>
+
+    <!-- output list -->
+    <ul class="item-list">
+      
+    </ul>
+  </div>
+
+  <footer>
     <form class="new-item-form">
       <div class="field">
         <label>Type:</label>
@@ -20,24 +27,22 @@
       </div>
       <div class="field">
         <label>To / From:</label>
-        <input type="text" id="tofrom" />
-      </div>
+        <input type="text" id="tofrom">
+      </div>   
       <div class="field">
         <label>Details:</label>
-        <input type="text" id="details" />
+        <input type="text" id="details">
       </div>
       <div class="field">
-        <label>Amount ($):</label>
-        <input type="number" id="amount" />
+        <label>Amount (£):</label>
+        <input type="number" id="amount">
       </div>
       <button>Add</button>
     </form>
 
-    <div class="list-container">
-      <!-- output list -->
-      <ul class="item-list"></ul>
-    </div>
+    <a href="https://www.thenetninja.co.uk">The Net Ninja</a>
+  </footer>
 
-    <script type="module" src="./public/app.js"></script>
-  </body>
+  <script src='sandbox.js'></script>
+</body>
 </html>

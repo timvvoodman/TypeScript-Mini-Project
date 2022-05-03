@@ -1,69 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
-
-body {
+body{
   margin: 0;
-  font-family: 'Poppins', 'sans-serif';
+  font-family: Roboto; 
 }
-.wrapper {
+.wrapper{
   max-width: 960px;
   margin: 0 auto;
 }
-h1 {
+h1{
   margin: 40px auto;
-  color: darkblue;
+  color: #ff0aa7;
   text-align: center;
 }
-ul {
+ul{
   padding: 0;
   list-style-type: none;
 }
-li {
+li{
   padding: 6px 10px;
+  border: 1px solid #eee;
   margin: 10px auto;
 }
-li h4 {
-  color: darkblue;
+li h4{
+  color: #ff0aa7;
   margin: 0;
   text-transform: capitalize;
 }
-li p {
+li p{
   color: #333;
   margin: 8px 0 0;
 }
-
-form {
+footer{
+  background: #eee;
+  padding: 60px;
+  margin-top: 60px;
+}
+form{
   max-width: 960px;
   margin: 0 auto;
   text-align: center;
 }
-label {
+label{
   display: block;
   font-weight: bold;
   font-size: 0.8em;
   color: #333;
   margin: 16px 0 6px;
 }
-input,
-select {
+input, select{
   padding: 6px;
   border: 1px solid #e1e1e1;
   border-radius: 4px;
 }
-.field {
+.field{
   display: inline-block;
   margin: 0 10px;
 }
-button {
+button{
   color: white;
   border: 0;
-  background: darkblue;
+  background: #ff0aa7;
   padding: 6px;
   min-width: 80px;
   border-radius: 4px;
 }
-
-.list-container {
-  display: flex;
-  margin-top: 25px;
-  background-color: #eeeeee;
+footer a{
+  text-align: center;
+  display: block;
+  color: #999;
+  margin-top: 40px;
+  font-size: 0.7em;
 }
